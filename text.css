@@ -10,11 +10,20 @@ html {
 }
 h1 {
   font-size: 3.157em;
-  color: black;
+  color: white;
+  background: green;
+  text-color: white;
   text-align: center;
   border: solid;
   border-color: green;
   */Fidelity Investments*/
+}
+
+h2 {
+  font-size: 1.777em;
+  color: black;
+  text-align: center;
+  */New user sign-up*/
 }
 
 form {
@@ -34,7 +43,7 @@ label {
     /* To make sure that all label have the same size and are properly align */
     display: inline-block;
     width: 90px;
-    text-align: right;
+    text-align: center;
 }
 
 input, textarea {
@@ -70,7 +79,9 @@ textarea {
 
 .button {
     /* To position the buttons to the same position of the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    padding-left: 90px;
+    text-align: center;
+     /* same size as the label elements */
 }
 button {
     /* This extra margin represent roughly the same space as the space

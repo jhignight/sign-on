@@ -12,21 +12,41 @@
 
 <form action="login-form-page" method="post" />
   <label for="username">Username</label>
-  <input id="username" type="text" name="name">
+  <input id="username" type="name" required="required" name="name">
 
 </form>
 
 <!-- Simple form which will send a POST request -->
-<form action="" method="post">
-  <label for="username">Password</label>
-  <input id="username" type="text" name="name">
-  <input type="submit" value="Save">
+<form action="login-form-page" method="post">
+  <label for="password">Password</label>
+  <input id="password" type="name" required="required" name="name">
+  <input type="submit" value="Login">
+</form>
+
+<h2>New User? Sign up now to access your account, view statements, and more!</h2>
+
+<form action="sign-up-form-page" method="send">
+  <label for="username">Username</label>
+  <input id="username" type="name" required="required" name="name">
+</form>
+
+<form action="sign-upform-page" method="send">
+  <label for="password">Password</label>
+  <input id="password" type="name" required="required" name="name">
+</form>
+
+<form action="sign-upform-page" method="send">
+  <label for="firstname">First Name</label>
+  <input id="firstname" type="name" required="required" name="name">
+</form>
+
+<form action="sign-upform-page" method="send">
+  <label for="lastname">Last Name</label>
+  <input id="lastname" type="name" required="required" name="name">
+  <input type="submit" value="Register New Account">
 </form>
 
 
-<footer>
-  <img scr="logo.gif" alt="Fidelity Investments Logo" />
 
-</footer>
 </body>
 </html>
